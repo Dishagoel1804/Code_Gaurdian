@@ -1,0 +1,23 @@
+timestamp,score,code,date,filename
+2025-10-23 15:01:52,4.4,"class Solution {
+    public int finalValueAfterOperations(String[] operations) {
+        int X=0;
+        for(int i=0;i<operations.length;i++)
+        {
+            String s=operations[i];
+            if(s.equals(""--X""))
+            --X;
+            else if(s.equals(""X++""))
+            X++;
+            else if(s.equals(""X--""))
+            X--;
+            else
+            ++X;
+        }
+        return X;
+    }
+}",,
+,5.0,,2025-10-21,Number.py
+,5.7,,2025-10-21,Reena.py
+,2.6,,2025-10-21,Solution.py
+,6.5,,2025-10-21,Math.py
