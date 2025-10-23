@@ -1,4 +1,6 @@
 streamlit
 google-generativeai
-pandas
 python-dotenv
+matplotlib
+Pillow
+requests
